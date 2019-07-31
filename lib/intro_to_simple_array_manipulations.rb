@@ -16,6 +16,11 @@ def pop_with_args(array)
   p last_two
 end
 
+def using_shift(array)
+  first = array.shift
+  p first
+end
+
 def shift_with_args(array)
   first_two = array.shift(2)
   p first_two
