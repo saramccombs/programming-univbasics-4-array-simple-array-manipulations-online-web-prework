@@ -7,11 +7,11 @@ def using_unshift(array, string)
 end
 
 def using_pop(array)
-  last_element=array.pop
+  last_element = array.pop
   p last_element
 end
 
 def pop_with_args(array)
-  array.pop(2)
-  p
+  last_two = array.pop(2)
+  p last_two
 end
